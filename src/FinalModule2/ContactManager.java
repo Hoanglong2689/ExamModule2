@@ -166,7 +166,7 @@ public class ContactManager {
     }
 
     private boolean isValidPhone(String phone) {
-        return phone.matches("\\d{10,13}"); // Giả định số điện thoại có từ 10 đến 13 chữ số
+        return phone.matches("\\d{10,13}");
     }
 }
 
